@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: discovery-server   # must match discovery-server.yml in config repo
+  cloud:
+    config:
+      uri: http://localhost:8888   # Config Server
+      fail-fast: true

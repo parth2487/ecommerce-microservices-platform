@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: discovery-server
+
+eureka:
+  client:
+    register-with-eureka: false   # do not register with itself
+    fetch-registry: false         # do not try to fetch registry
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
+    wait-time-in-ms-when-sync-empty: 0

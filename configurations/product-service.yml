@@ -1,0 +1,17 @@
+
+
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: PRODUCT-SERVICE
+  data:
+    mongodb:
+      uri: mongodb+srv://parth12:Parth123@cluster0.dcla9uv.mongodb.net/productdb?retryWrites=true&w=majority&appName=Cluster0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
